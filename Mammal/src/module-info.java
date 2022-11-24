@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Career
+ *
+ */
+module Mammal {
+}

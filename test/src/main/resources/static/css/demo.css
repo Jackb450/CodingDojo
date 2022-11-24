@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+	background-color: black;
+}
+h1 {
+    color: blue;
+}
+h3 {
+	color: red;
+}
+p {
+	color: white;
+}
+label {
+	color: white;
+}
