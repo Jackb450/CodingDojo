@@ -1,0 +1,20 @@
+.button1 {
+    border: px;
+    border-radius: 10px;
+    background-color: lightgray;
+    border-color: darkgray;
+    height: auto;
+    width: auto;
+}
+
+.button2 {
+    border: 0px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: salmon;
+}
+
+.button3 {
+    background-color: blue;
+}

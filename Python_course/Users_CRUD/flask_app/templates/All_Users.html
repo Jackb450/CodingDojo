@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/All_Users.css')}}">
+    <title>Users</title>
+</head>
+<body>
+    <h1>All Users</h1>
+    
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    {% for i in range(one_user|length) %}
+        <tr>
+            <td>{{i+1}}</td>
+            <td>{{one_user[i].first_name + ' ' + one_user[i].last_name}}</td>
+            <td>{{one_user[i].email}}</td>
+            <td>{{one_user[i].created_at.strftime("%B %d, %Y")}}</td>
+            <td><a href="users/{{one_user[i].id}}">Show</a> <p> | </p> <a href="users/{{one_user[i].id}}/edit">edit</a> <p> | </p> <a href="users/{{one_user[i].id}}/delete">delete</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+    <div class="create">
+        <a href="users/new">Create User</a>
+    </div>
+</body>
+</html>

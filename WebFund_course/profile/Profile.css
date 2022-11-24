@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+
+.navleft {
+    height: 70px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 85px;
+}
+
+.navright {
+    height: 70px;
+    width: 350px;
+    background-color: black;
+}
+
+.navright button {
+    position: relative;
+    top: 25px;
+    left: 150px;
+}
+
+.maincontent {
+    height: 455px;
+    background-color: white;
+}
+
+.usercard {
+    height: 210px;
+    width: 235px;
+    background-color: green;
+    position: absolute;
+    top: 110px;
+    left: 115px;
+}
+
+.usercardbanner {
+    height: 60px;
+    width: 239px;
+    background-color: rgb(44, 169, 188);
+}
+
+.usercardcontent {
+    height: 150px;
+    width: 235px;
+    background-color: white;
+    border: 2px solid lightgray;
+}
+
+.usercardcontent h2 {
+    font-family: cursive;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+.usercardcontent p {
+    font-size: small;
+    font-family: cursive;
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+
+.usercardcontent a {
+    font-size: small;
+    font-family: cursive;
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+
+#profpic {
+    height: 75px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    border-radius: 50%;
+    border: 3px solid lightgray;
+}
+
+.pin{
+    height: 15px;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+}
+
+#location {
+     position: relative;
+     left: 30px;
+     top: 30px;
+}
+
+.gear {
+    height: 20px;
+    position: absolute;
+    top: 185px;
+    left: 20px;
+}
+
+.requestbox {
+    height: 95px;
+    width: 170px;
+    background-color: green;
+    position: relative;
+    top: 40px;
+    left: 390px;
+}
+
+.reqboxbanner {
+    height: 35px;
+    width: 174px;
+    background-color: rgb(60, 59, 59);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.reqboxbanner h5 {
+    background-color: gray;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.requestboxcontent {
+    height: 60px;
+    width: 170px;
+    background-color: white;
+    border: 2px solid lightgray;
+}
+
+.requestboxcontent img {
+    border-radius: 50%;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.requestboxcontent p {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.Todd {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    
+}
+
+.Phil {
+    display: flex;
+}
+
+.educationbox {
+    height: 160px;
+    width: 235px;
+    background-color: green;
+    position: absolute;
+    top: 360px;
+    left: 115px;
+}
+
+.educboxbanner {
+    height: 40px;
+    width: 239px;
+    background-color: rgb(60, 59, 59);
+    color: white;
+    top: 45px;
+    left: 12px;
+}
+
+.educboxbanner p {
+    margin-left: 10px;
+    padding: 10px;    
+}
+.educboxcontent {
+    height: 120px;
+    width: 235px;
+    background-color: white;
+    border: 2px solid lightgray;
+}
+
+.educboxcontent h5 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.educboxcontent h6 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.educboxcontent p {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.connectionsbox {
+    height: 185px;
+    width: 170px;
+    background-color: green;
+    position: relative;
+    top: 70px;
+    left: 390px;
+}
+
+.connectboxbanner {
+    height: 35px;
+    width: 174px;
+    background-color: rgb(60, 59, 59);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.connectboxbanner h5 {
+    background-color: gray;
+    height: 20px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.connectboxcontent {
+    height: 115px;
+    width: 170px;
+    background-color:  white;
+    border: 2px solid lightgrey;
+    position: relative;
+    font-size: small;
+}
+
+.connectboxcontent img {
+    border-radius: 50%;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.connectboxcontent p {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.Adrien {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Anne {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.Alayne {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.Arry {
+    display: flex;
+}
+
+.connectboxlink {
+    height: 25px;
+    width: 170px;
+    background-color: #ffffff;
+    border: 2px solid #d3d3d3;
+    border-top: none;
+    padding-top: 5px;
+}
+
+.connectboxlink a {
+    margin: 10px;
+}

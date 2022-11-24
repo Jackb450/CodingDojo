@@ -1,0 +1,34 @@
+.head {
+    text-align: center;
+}
+
+.acc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reg {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.reg h2 {
+    color: blue;
+}
+
+.log {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.log h2 {
+    color: red;
+}
+
+.push {
+    margin-right: 250px;
+}

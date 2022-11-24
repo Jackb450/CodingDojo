@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scales=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/counter.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="counter">
+        <h1> Counter</h1>
+        {{count}}
+    </div>
+    <div class="buttons">
+        <div class="add">
+            <form action='/addtwo' >
+                <input type="submit" name="" value="+2">
+            </form>
+        </div>
+        <div class="reset">
+            <form action='/reset'>
+                <input type="submit" name="" value="reset">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

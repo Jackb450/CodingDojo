@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scales=1.0">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/survey.css')}}">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="paper">
+            <h1>Dojo Survey</h1>
+            <div class="name">
+                <form action='/result' method='post'>
+                Your Name: 
+                <br>
+                <input type='text' name='name' id='name'>
+            </div>
+            <br>
+                Dojo Location:
+                <br>
+                <select name="Dojo_Location" id='location'>
+                    <option value="">---</option>
+                    <option value="Antartica">Antartica</option>
+                    <option value="Australia">Australia</option>
+                    <option value="North_America">N. America</option>
+                    <option value="South_America">S. America</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Asia">Asia</option>
+                </select>
+                <br><br>
+                Favorite (programming) Language:
+                <br>
+                <select name="Favorite_Language">
+                    <option value="">---</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Python">Python</option>
+                    <option value="C">C</option>
+                    <option value="Rust">Rust</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                    <option value="C++">C++</option>
+                </select>
+                <p> Comment (optional):</p>
+                <textarea name="description"></textarea>
+                <br>
+                <input type="submit" value="Submit" id="sub">
+            </form>
+        </div>
+    </body>
+</html>

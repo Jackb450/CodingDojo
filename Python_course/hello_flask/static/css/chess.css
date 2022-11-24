@@ -1,0 +1,33 @@
+h1 {
+    color: black;
+    background-color: lightgreen;
+    width: fit-content;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    margin: auto;
+}
+
+.col {
+    display: flex;
+    margin-top: -4px;
+}
+
+.color0 {
+    background-color: red;
+    color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.color1 {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}

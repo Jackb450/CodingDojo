@@ -1,0 +1,46 @@
+.paper {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: gold;
+    text-align: left;
+    padding: 10px;
+}
+
+.name input{
+    width: 400px;
+    height: 30px;
+}
+
+select {
+    width: 400px;
+    height: 30px;
+}
+
+input {
+    width: 100px;
+}
+
+textarea {
+    width: 400px;
+    height: 80px;
+}
+
+.profile {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+}
+
+p {
+    text-align: center;
+}

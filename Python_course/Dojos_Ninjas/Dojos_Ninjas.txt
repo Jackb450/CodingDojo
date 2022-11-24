@@ -1,0 +1,29 @@
+INSERT INTO `dojos_and_ninjas`.`dojos` (`id`, `name`) VALUES ('1', 'Ninjago');
+INSERT INTO `dojos_and_ninjas`.`dojos` (`id`, `name`) VALUES ('2', 'Kunoichi');
+INSERT INTO `dojos_and_ninjas`.`dojos` (`id`, `name`) VALUES ('3', 'Kagura');
+
+DELETE FROM `dojos_and_ninjas`.`dojos` WHERE (`id` = '1');
+DELETE FROM `dojos_and_ninjas`.`dojos` WHERE (`id` = '2');
+DELETE FROM `dojos_and_ninjas`.`dojos` WHERE (`id` = '3');
+
+INSERT INTO `dojos_and_ninjas`.`dojos` (`id`, `name`) VALUES ('1', 'Ninjago');
+INSERT INTO `dojos_and_ninjas`.`dojos` (`id`, `name`) VALUES ('2', 'Kunoichi');
+INSERT INTO `dojos_and_ninjas`.`dojos` (`id`, `name`) VALUES ('3', 'Kagura');
+
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('1', '1', 'Jack', 'Brundage', '18');
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('2', '1', 'Agul', 'Gaia', '27');
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('3', '1', 'Kurokage', 'Gridon', '23');
+
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('4', '2', 'Shinobu', 'Shin', '20');
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('5', '2', 'Aegis', 'Terra', '26');
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('6', '2', 'Shadow', 'Jet', '19');
+
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('7', '3', 'Drayden', 'Spirit', '16');
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('8', '3', 'BB', 'Star', '17');
+INSERT INTO `dojos_and_ninjas`.`ninjas` (`id`, `Dojo_id`, `first_name`, `last_name`, `age`) VALUES ('9', '3', 'Anna', 'banana', '19');
+
+SELECT * FROM ninjas WHERE dojo_id = 1;
+
+SELECT * FROM ninjas WHERE dojo_id = 3;
+
+select * FROM dojos WHERE id = 3;

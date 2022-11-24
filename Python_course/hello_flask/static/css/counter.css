@@ -1,0 +1,16 @@
+.counter {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.add {
+    padding: 20px;
+}
+
+.reset {
+    padding: 20px;
+}

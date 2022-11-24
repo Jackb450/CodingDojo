@@ -1,0 +1,128 @@
+.Nav {
+    background-color: lightgray;
+    width: fit-content;
+    margin: auto;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Navbar input {
+    height: 30px;
+    width: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Navbar button {
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: blue;
+}
+
+.main {
+    width: fit-content;
+    margin: auto;
+}
+
+.Column1 {
+    display: flex;
+}
+
+.Box1 {
+    margin-top: 30px;
+    border-style: solid;
+    border-color: black;
+    height: 130px;
+    width: 340px;
+}
+
+.Def {
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+
+.Box1 h1{
+    margin-bottom: -20px;
+    margin-left: 15px;
+    margin-top: -60px;
+}
+
+.Box1 h3 {
+    margin-bottom: -20px;
+    margin-left: 15px;
+}
+
+.Plurals {
+    display: flex;
+    margin-left: 15px;
+}
+
+.Italic {
+    font-style: italic;
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+.likes button {
+    background-color: lightgreen;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.side-box {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: black;
+    height: 130px;
+    width: 170px;
+    text-align: center;
+}
+
+
+.side-box h3{
+    text-align: left;
+    margin-left: 10px;
+}
+.side-box button {
+    background-color: lightgreen;
+    width: 150px;
+    height: 40px;
+}
+
+.Box2 {
+    margin-top: 30px;
+    border-style: solid;
+    border-color: black;
+    height: 130px;
+    width: 340px;
+}
+
+.Def2 {
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+
+.Plurals2 {
+    display: flex;
+    margin-left: 15px;
+}
+
+.Box2 h1{
+    margin-bottom: -20px;
+    margin-left: 15px;
+    margin-top: -60px;
+}
+
+.Box2 h3 {
+    margin-bottom: -20px;
+    margin-left: 15px;
+}

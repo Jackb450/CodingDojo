@@ -1,0 +1,23 @@
+h1 {
+    color: rgba(255, 155, 0);
+    background-color: black;
+    text-align: left;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+h2 {
+    color: red;
+    background-color: blue;
+    text-align: center;
+    text-decoration: dotted;
+    font-style: italic;
+}
+
+h3 {
+    color: white;
+    background-color: brown;    
+    text-align: end;
+    text-decoration: overline;
+    font-style: inherit;
+}
